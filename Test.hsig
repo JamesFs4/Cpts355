@@ -1,0 +1,6 @@
+test :: Integer -> Integer 
+test x = x + x
+
+main :: IO ()
+main = do 
+    print (test 10)
