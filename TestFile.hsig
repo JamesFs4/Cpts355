@@ -1,1 +1,6 @@
-main = putStrLn "Hello, World!"
+test :: Integer -> Integer
+test x = x + x
+
+
+main = do
+    print (test 10)
